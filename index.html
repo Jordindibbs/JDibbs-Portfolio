@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Jordin Dibbs</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sora:wght@700&family=Work+Sans:ital,wght@0,400;0,700;1,600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="toggle-switch.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Jordin Dibbs</h1>
+        <ul>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="controls">
+        <label class="toggle-switch">
+          Dark Mode
+          <input type="checkbox" id="dark-mode-toggle" />
+          <div class="toggle-switch-border">
+            <div class="toggle-switch-dot"></div>
+          </div>
+        </label>
+      </div>
+    </header>
+
+    <section class="bio">
+      <img class="profile-img" src="Pic.jfif" />
+      <div>
+        <h2>Hello! My name is Jordin Dibbs.</h2>
+        <p>
+          I've been coding since early 2022. I have experience in web design
+          (HTML, CSS, JS, React).
+        </p>
+        <a class="btn" href="https://github.com/Jordindibbs">See my work</a>
+      </div>
+    </section>
+    <!--Projects-->
+    <section id="projects" class="recent-work">
+      <h2>Recent Work</h2>
+      <!--Warhammer Tracker-->
+      <article>
+        <div>
+          <h3>Warhammer Objective Tracker</h3>
+          <p>
+            Objective tracker for the tabletop game Warhammer 40k 9th edition
+          </p>
+          <strong>April 2023</strong>
+          <ul>
+            <li>Tracks players current points per round</li>
+            <li>
+              Manages player tactical info such as current faction and what
+              objectives are being played.
+            </li>
+          </ul>
+          <a
+            class="btn"
+            href="https://github.com/Jordindibbs/Warhammer40k-Tracker"
+            >GitHub Repo</a
+          >
+        </div>
+        <img class="article-img" src="Tracker.png" />
+      </article>
+    </section>
+    <!--Certifications-->
+    <section id="certs" class="recent-work">
+      <h2 id="projects">Work History</h2>
+      <article>
+        <div>
+          <h3>Operations Manager</h3>
+          <p>Raising Canes Chicken Fingers</p>
+          <strong>June 2019 - January 2023</strong>
+          <ul>
+            <li>Example skill</li>
+            <li>Example skill</li>
+          </ul>
+        </div>
+        <img class="work-img" src="canes.png" />
+      </article>
+      <article>
+        <div>
+          <h3>Associate</h3>
+          <p>In-N-Out Burger</p>
+          <strong>June 2015 - June 2019</strong>
+          <ul>
+            <li>Example skill</li>
+            <li>Example skill</li>
+          </ul>
+        </div>
+        <img class="work-img" src="innout.png" />
+      </article>
+    </section>
+
+    <footer id="contact">
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/jordin-dibbs-2189a5a7/">
+            LinkedIn
+            <span class="link-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Jordindibbs">
+            GitHub
+            <span class="link-icon">
+              <i class="fa-brands fa-github"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p class="copywright">© 2023 Jordin Dibbs</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
