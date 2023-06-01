@@ -165,23 +165,22 @@ article li {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 400px;
+  padding-bottom: 50px;
 }
 .home-badge {
-  width: 335x;
-  height: 370px;
-  margin: 60px;
+  width: 335px;
+  height: 200px;
+  margin: 50px;
   text-align: center;
 }
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
   #badges-container {
     flex-direction: column;
   }
   #badges-container.home-badge {
-    width: 100%;
     min-width: 100%;
     margin-inline-start: 0;
-    margin-block-start: 2rem;
+    margin-block-start: 2em;
   }
 }
 
@@ -203,7 +202,6 @@ article .article-img {
     margin-block-start: 2rem;
   }
 }
-/*Contact Form*/
 
 /*Footer CSS*/
 footer {
