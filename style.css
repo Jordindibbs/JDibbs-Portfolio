@@ -160,7 +160,32 @@ article a {
 article li {
   margin-block-end: 0.5rem;
 }
+/*home badges*/
+#badges-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.home-badge {
+  width: 335x;
+  height: 370px;
+  margin: 60px;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  #badges-container {
+    flex-direction: column;
+  }
+  #badges-container.home-badge {
+    width: 100%;
+    min-width: 100%;
+    margin-inline-start: 0;
+    margin-block-start: 2rem;
+  }
+}
 
+/*Articles*/
 article .article-img {
   width: 512px;
   min-width: 512px;
@@ -178,25 +203,9 @@ article .article-img {
     margin-block-start: 2rem;
   }
 }
+/*Contact Form*/
 
-article .work-img {
-  width: 300px;
-  min-width: 300px;
-  margin-inline-start: 4rem;
-}
-
-@media (max-width: 1024px) {
-  article {
-    flex-direction: column;
-  }
-  article .work-img {
-    width: 100%;
-    min-width: 100%;
-    margin-inline-start: 0;
-    margin-block-start: 2rem;
-  }
-}
-
+/*Footer CSS*/
 footer {
   padding: 1rem 0;
   text-align: center;
