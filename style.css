@@ -184,14 +184,18 @@ article li {
   margin: 50px;
   text-align: center;
 }
-@media (max-width: 767px) {
+
+@media (max-width: 425px) {
   #badges-container {
-    display: block;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   #badges-container.home-badge {
-    height: 10px;
-    vertical-align: top;
+    width: 300px;
+    margin-top: 18px;
+    border-radius: 5px;
   }
 }
 
