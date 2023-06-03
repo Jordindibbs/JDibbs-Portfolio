@@ -144,6 +144,19 @@ a.btn {
   font-weight: 700;
   font-size: 0.875rem;
 }
+a.btn2 {
+  display: inline-flex;
+  align-items: center;
+  background: var(--link);
+  color: var(--background);
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
 
 .recent-work {
   padding-block-end: 3rem;
@@ -152,6 +165,8 @@ a.btn {
 article {
   display: flex;
   padding: 3rem 0;
+  justify-content: center;
+  align-items: center;
 }
 
 article strong {
@@ -185,7 +200,7 @@ article li {
   text-align: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 860px) {
   #badges-container {
     width: 100%;
     display: flex;
@@ -201,6 +216,8 @@ article li {
 
 /*Articles*/
 article .article-img {
+  justify-content: center;
+  align-items: center;
   width: 512px;
   min-width: 512px;
   margin-inline-start: 4rem;
