@@ -213,7 +213,23 @@ article li {
     border-radius: 5px;
   }
 }
+/*Skills Section*/
+.centered-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
+.skill {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill i {
+  margin: 10px;
+  font-size: 50px;
+}
 /*Articles*/
 article .article-img {
   justify-content: center;
@@ -221,6 +237,7 @@ article .article-img {
   width: 512px;
   min-width: 512px;
   margin-inline-start: 4rem;
+  border-radius: 10px;
 }
 
 @media (max-width: 1024px) {
